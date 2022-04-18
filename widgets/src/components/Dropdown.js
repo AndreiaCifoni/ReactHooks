@@ -4,15 +4,6 @@ const Dropdown = ({ options, selected, onSelectedChange }) => {
   const [open, setOpen] = useState(false);
   const ref = useRef();
 
-  // useEffect(() => {
-  //   document.body.addEventListener("click", (event) => {
-  //     if (ref.current.contains(event.target)) {
-  //       return;
-  //     }
-  //     setOpen(false);
-  //   });
-  // }, []);
-
   useEffect(() => {
     const onBodyClick = (event) => {
       if (ref.current.contains(event.target)) {
