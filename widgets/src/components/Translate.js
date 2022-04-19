@@ -12,8 +12,8 @@ const options = [
     value: "ar",
   },
   {
-    label: "Hindi",
-    value: "hi",
+    label: "Portuguese",
+    value: "pt",
   },
 ];
 
@@ -43,6 +43,3 @@ const Translate = () => {
 };
 
 export default Translate;
-
-// https://translation.googleapis.com/language/translate/v2
-// API KEY  AIzaSyCHUCmpR7cT_yDFHC98CZJy2LTms-IwDlM
